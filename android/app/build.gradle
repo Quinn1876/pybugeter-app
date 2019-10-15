@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.pybugeter"
+        applicationId "com.pybudgeter"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

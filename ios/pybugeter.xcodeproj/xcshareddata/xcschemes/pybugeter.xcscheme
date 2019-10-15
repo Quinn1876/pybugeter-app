@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "pybugeter.app"
-               BlueprintName = "pybugeter"
-               ReferencedContainer = "container:pybugeter.xcodeproj">
+               BuildableName = "pybudgeter.app"
+               BlueprintName = "pybudgeter"
+               ReferencedContainer = "container:pybudgeter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "pybugeterTests.xctest"
-               BlueprintName = "pybugeterTests"
-               ReferencedContainer = "container:pybugeter.xcodeproj">
+               BuildableName = "pybudgeterTests.xctest"
+               BlueprintName = "pybudgeterTests"
+               ReferencedContainer = "container:pybudgeter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "pybugeterTests.xctest"
-               BlueprintName = "pybugeterTests"
-               ReferencedContainer = "container:pybugeter.xcodeproj">
+               BuildableName = "pybudgeterTests.xctest"
+               BlueprintName = "pybudgeterTests"
+               ReferencedContainer = "container:pybudgeter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "pybugeter.app"
-            BlueprintName = "pybugeter"
-            ReferencedContainer = "container:pybugeter.xcodeproj">
+            BuildableName = "pybudgeter.app"
+            BlueprintName = "pybudgeter"
+            ReferencedContainer = "container:pybudgeter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "pybugeter.app"
-            BlueprintName = "pybugeter"
-            ReferencedContainer = "container:pybugeter.xcodeproj">
+            BuildableName = "pybudgeter.app"
+            BlueprintName = "pybudgeter"
+            ReferencedContainer = "container:pybudgeter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "pybugeter.app"
-            BlueprintName = "pybugeter"
-            ReferencedContainer = "container:pybugeter.xcodeproj">
+            BuildableName = "pybudgeter.app"
+            BlueprintName = "pybudgeter"
+            ReferencedContainer = "container:pybudgeter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,4 +1,4 @@
-package com.pybugeter;
+package com.pybudgeter;
 
 import android.app.Application;
 import android.content.Context;
