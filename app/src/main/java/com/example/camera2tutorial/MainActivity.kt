@@ -47,10 +47,10 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
-//        if (!InternetPermissionHelper.hasInternetPermission(this)) {
-//            InternetPermissionHelper.requestInternetPermission(this)
-//            return
-//        }
+        if (!InternetPermissionHelper.hasInternetPermission(this)) {
+            InternetPermissionHelper.requestInternetPermission(this)
+            return
+        }
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
@@ -60,6 +60,16 @@ class MainActivity : AppCompatActivity() {
             if (!CameraPermissionHelper.shouldShowRequestPermissionRationale(this)) {
                 // Permission denied with checking "Do not ask again".
                 CameraPermissionHelper.launchPermissionSettings(this)
+            }
+            finish()
+        }
+
+        if (!InternetPermissionHelper.hasInternetPermission(this)) {
+            Toast.makeText(this, "Internet permission is needed to run this application", Toast.LENGTH_LONG)
+                .show()
+            if (!InternetPermissionHelper.shouldShowRequestPermissionRationale(this)) {
+                // Permission denied with checking "Do not ask again".
+                InternetPermissionHelper.launchPermissionSettings(this)
             }
             finish()
         }
